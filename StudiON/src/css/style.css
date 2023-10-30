@@ -1,33 +1,35 @@
-body{
-    margin: 0;
-    padding: 0;
-
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
 }
 
-.PrincipalColor{
-    color: rgb(238, 206, 25)
+nav{
+
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around; 
+    background-color: #999;
+    
 }
+
 
 h1{
-    
+    color: #fff;
+    font-size: 40px;
+    height: 50px;
 }
 
-ol{
+.accent{
+    color: #EAAB0A;
+}
+
+.subtitle{
+    display: block;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: -5px;
     text-align: right;
-    padding-right: 25px;
-    
-    
-}
-
-
-ol li{
-    
-    list-style: none;    
-    display: inline;
-    
-    
-}
-
-ol li a {
-    text-decoration: none;
 }
