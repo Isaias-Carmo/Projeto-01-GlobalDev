@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+.PrincipalColor{
+    color: rgb(238, 206, 25)
+}
+
+h1{
+    
+}
+
+ol{
+    text-align: right;
+    padding-right: 25px;
+    
+    
+}
+
+
+ol li{
+    
+    list-style: none;    
+    display: inline;
+    
+    
+}
+
+ol li a {
+    text-decoration: none;
+}
