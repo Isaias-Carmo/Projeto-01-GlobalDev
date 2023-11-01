@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Studion</title>
 </head>
 <body>
+    
     <nav>
-        <img src="src/img/enterprise 1.png" class="img-1">
-        <h1>Studi<span  class="PrincipalColor">ON</span> <span>Eventos</span></h1>
-        <ol><li><a href="">Empresa</a></li> 
+        
+        <h1>Studi<span  class="PrincipalColor">ON</span> <span class="subtittle">Eventos</span></h1>
+        <ol><li><a href="" class="selected">Empresa</a></li> 
             <li><a href="">Eventos</a></li>
             <li><a href="">Galeria</a></li>
             <li><a href="">Depoimentos</a></li>
@@ -21,48 +25,57 @@
 
     <header>
         
-        <h2 class="PrincipalColor">.empresa</h2>
+        <h2>.empresa</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum. Aliquam nonummy auctor massa</p>
 
     </header>
 
     <main>
-        <section class="Content">
+        <section class="section1">
             <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            <p class="paragrafo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
                 </p>
-
-                <img src="./src/img/Imagem01.png"/>
+                <p class="paragrafo2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate</p>
+                <div>
+                <img src="./src/img/Imagem01.png" class="pessoa"/>
+            </div>
 
         </section>
 
-        <section>
+        <section class="section2">
             <h4>Quem confia no nosso trabalho</h4>
             <img src="./src/img/marcas.png" alt="Marcas que confiam no nosso trabalho: "/>
         </section>  
 
-        <section>
+        <section class="section3">
             <img src="./src/img/Video.png" alt="Homem Sentado em um prédio olhando a vista"  />
         </section>
         
     </main>
     
     <footer>
-        <h2>Studi<span>ON</span> <span>Eventos</span></h2>
+        <div>
+        <h2>Studi<span class="accent">ON</span> <span class="subtitle">Eventos</span></h2>
 
         <form action="">
             <label>Receba news e promoções</label>
             <input type="email" placeholder="EMAIL">
-            <button type="submit">Enviar</button>
+            <button type="submit">
+                <img src="src/img/icons/send2.svg" alt="Enviar">
+            </button>
 
         </form>
         <ul>
-            <li>Facebook</li>
-            <li>whatsapp</li>
-            <li>youtube</li>
+            <a href="">
+            <li><img src="src/img/icons/facebook.svg"/> </li></a>
+            <a href="">
+            <li> <img src="src/img/icons/whatsapp.svg"/> </li></a>
+            <a href="">
+            <li><img src="src/img/icons/youtube.svg"/></li></a>
         </ul>
+
+    </div>
         <hr />
         <p>Studi<span>on</span> Todos os Direitos Reservados</p>
     </footer>
