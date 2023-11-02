@@ -4,34 +4,27 @@
     font-family: Montserrat;
 }
 
-body{
-    margin: 0;
-    padding: 0;
 
-}
-
-
-.PrincipalColor{
-    color: rgb(238, 206, 25)
-}
 
 nav{
 
 width: 80%;
 margin: 20px auto;
 display: flex;
+background: #999;
 justify-content: space-around;
 
 
 }
 
-
+.accent{
+    color: #EAAB0A;
+}
 
 h1{
     color: #fff;
-    font-family: Montserrat;
     font-size: 40px;
-    font-style: normal;
+    height: 50px;
     font-weight: 900;
     line-height: normal;
     letter-spacing: -0.8px;
@@ -39,30 +32,33 @@ h1{
 
 }
 
-.subtittle{
-    color: #EAAB0A;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: normal;
-    letter-spacing: -0.8px;
+.subtitle{
+    display: block;
+    margin-top: -5px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
     text-transform: uppercase;
+    text-align: right;
 }
 
 ol{
-    text-align: right;
-    padding-right: 25px;
-    
-    
-}
-
-ul{
     display: flex;
     list-style: none;
     height: 50px;
     align-items: center;
+    
+    
 }
+
+ul {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    align-items: center;
+  }
+
+
 
 
 
